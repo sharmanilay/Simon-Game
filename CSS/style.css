@@ -1,0 +1,95 @@
+/* Importing Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+	background-image: url('http://4.bp.blogspot.com/-p3pHIV1aAbw/VGyHeTjbfUI/AAAAAAAAB1k/hWJU5D72hjk/s1600/Top%2B30%2BHigh%2BQuality%2BFree%2BPhotoshop%2BPatterns%2BAnd%2BTextures%2BBackground%2BPatterns%2B(7).jpg');
+	text-align: center;
+}
+h1{
+	display: block;
+	color: #cacfd2  /* #283747 /*#1e8449 #45b39d*/;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 80px;
+}
+h2{
+	display: block;
+	color: #cacfd2  /* #283747 /*#1e8449 #45b39d*/;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+}
+.game-button{
+	position: absolute;
+	top:40%;
+	left:35%;
+}
+.buttons {
+	 position: absolute;
+	 top: 50%;
+     left: 35%;
+}
+button{
+	height: 60px;
+	width: 120px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 6px;
+}
+button.gb{
+	background-color:  #d0d3d4;
+	color: #191919;
+}
+button.gb:active{
+	background-color: #e1e4e5;
+}
+button.red{
+	background-color: #922b21;
+	color : #cacfd2;
+}
+button.red:active{
+	background-color: #a33c32;
+}
+button.blue{
+	background-color: #2874a6;
+	color : #cacfd2;
+}
+button.blue:active{
+	background-color: #3985b7;
+}
+button.green{
+	background-color: #1e8449;
+	color : #cacfd2;
+}
+button.green:active{
+	background-color: #2f955a;
+}
+button.yellow{
+	background-color: #b7950b;
+	color : #cacfd2;
+}
+button.yellow:active{
+	background-color: #c8a61c;
+}
+.led {
+	position: absolute;
+	top: 41.5%;
+	left: 56%;
+	background-color: #00FF66;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+.score{
+	position: absolute;
+	display: block;
+	background-color: #191919;
+	height: 250px;
+	width: 250px;
+	top: 60%;
+	left: 42%;
+	align-content: center;
+}
+.inBox{
+	height: 100px;
+	width: 100px;
+	background-color: #2a2a2a;
+	margin-left: 30%;
+}
